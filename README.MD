@@ -1,5 +1,13 @@
-## COIT20261: Network Services and Automation
+# COIT20261 – Network Services and Automation
 
-Student Number: 12337541
-Student Name: Carlloyd Viray
-Campus: Sydney Campus
+## Student Information
+
+| Field              | Details        |
+| ------------------ | -------------- |
+| **Student Name**   | Carlloyd Viray |
+| **Student Number** | 12337541       |
+| **Campus**         | Sydney Campus  |
+
+---
+
+This repository contains coursework, projects, and supporting materials for **COIT20261 – Network Services and Automation**.
