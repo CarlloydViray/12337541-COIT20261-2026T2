@@ -8,13 +8,13 @@ Just like from the previous repository. we have to create weekly journals for wh
 
 I also cloned it to my local machine for ease of publication of weekly journals
 
-![alt text](img/w2_vscode.png)
+![alt text](img/w1_vscode.png)
 
 ## Installing GNS3
 
 From the turorial classes, we were instructed to install GNS3 to emulate, configure, test, and troubleshoot virtual networks.
 
-![alt text](img/w2_gns3.png)
+![alt text](img/w1_gns3.png)
 
 ## Opening GNS3 with Oracle Virtual Box
 
@@ -35,7 +35,7 @@ In this case, we removed the comments in order for the host pc to have its own i
 
 ![alt text](img/w1_doneconfig.png)
 
-Applying all configurations and starting the node will run the network. To verify, we will be using the console web and run a linux command to check the ip address using the command ip a
+Applying all configurations and starting the node will run the network. To verify, we will be using the console web and run a linux command to check the ip address using the command `ip a`
 
 ![alt text](img/w1_ipa.png)
 
