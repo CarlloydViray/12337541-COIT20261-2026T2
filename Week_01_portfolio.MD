@@ -1,44 +1,65 @@
-# WEEK 01 - Introduction to Internetworking
+# Week 01 – Introduction to Internetworking
 
-## Creating Github Repository
+## Creating a GitHub Repository
 
-Just like from the previous repository. we have to create weekly journals for what we learned during the week.
+A GitHub repository was created to document weekly learning activities and laboratory exercises completed throughout the course. Maintaining a weekly journal provides a record of progress and serves as a reference for future topics.
 
-![alt text](img/w1_github.png)
+![GitHub repository](img/w1_github.png)
 
-I also cloned it to my local machine for ease of publication of weekly journals
+The repository was then cloned to the local machine using Visual Studio Code, making it easier to manage files, track changes, and publish updates to GitHub.
 
-![alt text](img/w1_vscode.png)
+![Repository in Visual Studio Code](img/w1_vscode.png)
+
+---
 
 ## Installing GNS3
 
-From the turorial classes, we were instructed to install GNS3 to emulate, configure, test, and troubleshoot virtual networks.
+As part of the tutorial, **GNS3 (Graphical Network Simulator 3)** was installed to emulate, configure, test, and troubleshoot virtual network environments. GNS3 enables realistic network simulations without requiring physical networking hardware.
 
-![alt text](img/w1_gns3.png)
+![GNS3 installation](img/w1_gns3.png)
 
-## Opening GNS3 with Oracle Virtual Box
+---
 
-Using the OVA file provided. I opened it via oracle virtual box to continue with the tutorial
+## Launching GNS3 with Oracle VirtualBox
 
-![alt text](img/w1_ova.png)
+Using the OVA appliance provided during the tutorial, the GNS3 virtual machine was imported and launched using **Oracle VirtualBox**.
 
-Visiting the Web UI: 192.168.56.101 will show the virtual box user interface where we can configure different nodes and netwroking.
+![Importing the OVA appliance](img/w1_ova.png)
 
-![alt text](img/w1_webui.png)
+After the virtual machine started successfully, the GNS3 Web UI was accessed through the following address:
 
-We put a linux server in the canvas and proceed to edit its configuration
+```
+http://192.168.56.101
+```
 
-![alt text](img/w1_configuration.png)
+The web interface allows users to configure and manage network devices and virtual hosts.
 
-Here we can manually edit or add cofnigurations. Making sure that the has comment is deleted in order to apply the config.
-In this case, we removed the comments in order for the host pc to have its own ip address.
+![GNS3 Web UI](img/w1_webui.png)
 
-![alt text](img/w1_doneconfig.png)
+---
 
-Applying all configurations and starting the node will run the network. To verify, we will be using the console web and run a linux command to check the ip address using the command `ip a`
+## Configuring a Linux Host
 
-![alt text](img/w1_ipa.png)
+A Linux host was added to the GNS3 workspace and its network configuration was edited.
 
-## Reflection
+![Linux host configuration](img/w1_configuration.png)
 
-The GNS3 will help us in later tutorial classes on how we can optimize, configure, make connections between hosts via virtual machines. This will help us visualize the network first before applying it in hardware.
+Within the configuration file, the required network settings were enabled by removing the comment (`#`) characters. This allows the configuration to be applied when the host starts.
+
+In this exercise, the Linux host was assigned its own IP address.
+
+![Completed configuration](img/w1_doneconfig.png)
+
+After applying the configuration and starting the node, the Linux console was opened to verify that the IP address had been assigned correctly using the following command:
+
+```bash
+ip a
+```
+
+![Verifying the IP address](img/w1_ipa.png)
+
+---
+
+# Reflection
+
+This introductory exercise provided hands-on experience with setting up a virtual networking environment using GNS3 and Oracle VirtualBox. Learning how to configure virtual hosts and verify network settings establishes a strong foundation for future laboratory activities. Throughout the course, GNS3 will be used to design, configure, test, and troubleshoot increasingly complex network topologies before implementing similar configurations on physical networking equipment.
