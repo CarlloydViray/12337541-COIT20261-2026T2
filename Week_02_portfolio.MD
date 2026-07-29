@@ -1,4 +1,4 @@
-# Week 01 – Transport Layer Protocol
+# Week 02 – Transport Layer Protocol
 
 ## Creating a New Project in GNS3
 
